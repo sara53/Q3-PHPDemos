@@ -1,0 +1,17 @@
+/*
+ Functions
+ ------------
+ -- built in Functions
+ -- user defined Functions
+    -- function statement
+    -- function expression
+    -- callback function
+    (anynomous function)
+
+
+-- String Object
+-- Array
+--- Math Object
+
+/*Date Object Self Study*/
+*/
