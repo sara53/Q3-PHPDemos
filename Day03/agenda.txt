@@ -1,0 +1,6 @@
+-- Scope (global , local)
+-- function execution in memory
+-- object -- access(red/write)
+-- Dom object
+-- Fire Event in js
+-- How to select Element From Dom
