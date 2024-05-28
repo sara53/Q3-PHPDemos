@@ -1,0 +1,26 @@
+-- Dom Object
+    -- How to change Style
+        -- style attribute
+        -- className 
+        -- classList
+            -- add
+            -- remove
+            -- toggle
+
+-- how to dele with attributes
+    -- get attributes   
+    -- set attributes
+    -- remove attribute
+    -- toggle attribute
+    -- hasAttribute 
+
+-- How eo create any element from js 
+    -- add this element to Dom
+        -- append
+        -- appendChild
+
+
+-- Bom --> Browser Object Model
+ -- Window 
+
+--------------------------------------------------
