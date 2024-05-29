@@ -1,0 +1,11 @@
+-- Bom Object
+    -- location
+    -- history
+    -- navigation
+    -- screen 
+
+-- events
+ -- add attribute on element
+ -- attach function on element
+ -- addEvent Lisenter
+ -- event propagation
