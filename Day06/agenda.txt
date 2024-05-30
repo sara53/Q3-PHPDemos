@@ -1,0 +1,5 @@
+-- Ajax 
+-- cookies
+-- Error Handling
+-- this --
+ call bind apply
