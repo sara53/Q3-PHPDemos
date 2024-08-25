@@ -1,0 +1,20 @@
+1- install node js
+2- node -v
+3- npm i -g typescript
+4- tsc -v
+5- tsc demo.ts -w
+
+------------------------------------------
+
+== tsc --init
+
+== outDir --> folderName
+== rootDir --> folderName
+
+
+tsc -w 
+
+-----------------------------------------
+1- ng new projectName
+2- ng serve -o
+3- npm start
