@@ -1,0 +1,29 @@
+<div class="mt-5 p-5 bg-dark text-light">
+  <div class="container">
+    <h1 #myH1 class="text-warning mb-4 text-center">Login Component</h1>
+    <!-- <input
+      (input)="getValue($event)"
+      type="text"
+      class="form-control mb-3"
+      placeholder="Enter Data"
+    /> -->
+
+    <input
+      name="studentData"
+      type="text"
+      class="form-control mb-3"
+      placeholder="Enter Data"
+      [(ngModel)]="inputValue"
+    />
+    <button (click)="showTitle(myH1)" class="btn btn-danger my-3">
+      Get Title
+    </button>
+    <p class="fs-3 lead">Data: {{ inputValue }}</p>
+    <select [(ngModel)]="courseName" name="courses" class="form-select">
+      <option>Html</option>
+      <option>Css</option>
+      <option>JS</option>
+    </select>
+    <p class="fs-1 mt-3">Your Fav course Is : {{ courseName }}</p>
+  </div>
+</div>

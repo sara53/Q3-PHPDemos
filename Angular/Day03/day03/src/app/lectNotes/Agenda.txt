@@ -1,0 +1,21 @@
+== component Communication
+    -- One Way Binding
+        -- interpolation
+        -- attribute Binding
+    
+    two way Binding
+        -- normal way
+        -- forms Module
+
+-- set Reference to Element
+== Directives
+    -- Structural Directives
+    *ngFor *ngIf *ngSwitch
+    controlControl @for @If @switch
+    -- Attribute Directives
+    -- Component Directives
+
+== Component Interaction    
+    == Pass Data From Parent to child // Done
+    == Pass Data From Child To Parent
+    == pass Data From Child to Child

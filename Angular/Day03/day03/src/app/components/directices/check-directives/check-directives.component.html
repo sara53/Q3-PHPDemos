@@ -1,0 +1,126 @@
+<div class="bg-light p-5 mt-5">
+  <div class="container">
+    <h1 class="mb-5">ITI Tracks</h1>
+    <div class="d-flex">
+      <!-- <div
+        *ngFor="let track of itiTracks; let i = index; let isOdd = even"
+        class="flex-1 bg-secondary p-3 rounded m-2"
+      >
+        <h1>{{ i }} : {{ track }} {{ isOdd }}</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
+          accusantium distinctio aut ad quos ipsa, maxime nostrum dolor, vero
+          officiis dolorum fuga unde voluptatibus. Cum quasi minima fugiat
+          dolorum vitae!
+        </p>
+      </div> -->
+
+      <!-- @for (x of itiTracks; track $index;) {
+
+      <div class="flex-1 bg-secondary p-3 rounded m-2">
+        <h1>{{ x }}</h1>
+        <h2 class="text-light">{{ $odd }}</h2>
+        <h2 class="text-light">{{ $even }}</h2>
+        <h2 class="text-light">{{ $index }}</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
+          accusantium distinctio aut ad quos ipsa, maxime nostrum dolor, vero
+          officiis dolorum fuga unde voluptatibus. Cum quasi minima fugiat
+          dolorum vitae!
+        </p>
+      </div>
+      }@empty {
+      <div class="alert alert-danger">No Tracks Avail</div>
+      } -->
+
+      <!-- <div *ngIf="show; else myDiv" class="alert alert-dark p-5">
+        <h1>Welcome PHP</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <ng-template #myDiv>
+        <div class="alert alert-success p-5">
+          <h1>Hello at ITI</h1>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </ng-template> -->
+
+      <!-- @if (show) {
+      <div class="alert alert-dark p-5">
+        <h1>Welcome PHP</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+
+      }@else {
+      <div class="alert alert-success p-5">
+        <h1>Hello at ITI</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      } -->
+      <!-- 
+      @switch (color) { @case ('red') {
+      <div class="alert alert-danger">Your Fav Color is red</div>
+
+      } @case ('green') {
+      <div class="alert alert-success">Your Fav Color is Green</div>
+
+      } @case ('blue') {
+      <div class="alert alert-primary">Your Fav Color is blue</div>
+
+      } @case ('yellow') {
+      <div class="alert alert-warning">Your Fav Color is yellow</div>
+
+      } @default {
+      <div class="alert alert-dark">No Fav Colors</div>
+
+      } } -->
+
+      <!-- <div class="">
+        <h1 [style.color]="show ? 'red' : 'green'">Content Div</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis atque
+          a vel cumque odio recusandae voluptates deserunt eos nemo, molestiae
+          ut, soluta minus quod eius. Quas inventore soluta porro ipsa?
+        </p>
+      </div> -->
+      <!-- <div class="">
+        <h1
+          [ngStyle]="{
+            color: show ? 'red' : 'green',
+            backgroundColor: show ? '#000' : '#ddd'
+          }"
+        >
+          Content Div
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis atque
+          a vel cumque odio recusandae voluptates deserunt eos nemo, molestiae
+          ut, soluta minus quod eius. Quas inventore soluta porro ipsa?
+        </p>
+      </div> -->
+      <!-- <div class="">
+        <h1 [class.customClass]="show">Content Div</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis atque
+          a vel cumque odio recusandae voluptates deserunt eos nemo, molestiae
+          ut, soluta minus quod eius. Quas inventore soluta porro ipsa?
+        </p>
+      </div> -->
+      <!-- <div>
+        <h1
+          [ngClass]="{
+            'alert alert-success': show,
+            'alert alert-danger': !show
+          }"
+        >
+          Content Div
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis atque
+          a vel cumque odio recusandae voluptates deserunt eos nemo, molestiae
+          ut, soluta minus quod eius. Quas inventore soluta porro ipsa?
+        </p>
+      </div> -->
+    </div>
+    <button (click)="toggle()" class="btn btn-dark">Toggle</button>
+  </div>
+</div>

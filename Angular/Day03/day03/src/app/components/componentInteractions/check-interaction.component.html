@@ -1,0 +1,43 @@
+<div class="alert alert-success p-5">
+  <h1>
+    TrackName :<strong>{{ dataFromParent }}</strong>
+  </h1>
+  @for (x of allTracks; track $index) {
+  <p>
+    <strong class="text-danger">{{ x }}</strong> dolor sit amet consectetur,
+    adipisicing elit. Doloribus sint nisi nulla atque necessitatibus totam vero
+    repellat dolore saepe nemo modi vitae impedit iste officiis aperiam,
+    praesentium eius dolores delectus.
+  </p>
+  }@empty {
+  <p class="alert alert-danger mt-5">No Tracks Founded</p>
+  }
+</div>
+<div class="alert alert-warning p-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <input
+          type="text"
+          name="courseValue"
+          class="form-control"
+          [(ngModel)]="todoValue"
+          placeholder="Enter Your Course"
+        />
+      </div>
+      <div class="col-sm-4">
+        <button (click)="addTodo()" class="btn btn-success">+</button>
+      </div>
+    </div>
+    @for (todo of todosList; track $index) {
+    <div class="row mt-5">
+      <div class="col-sm-8">
+        <p class="bg-secondary p-2 rounded text-light">{{ todo }}</p>
+      </div>
+      <div class="col-sm-4">
+        <button class="btn btn-danger" (click)="removeTodo($index)">-</button>
+      </div>
+    </div>
+    }
+  </div>
+</div>
