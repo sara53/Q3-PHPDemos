@@ -1,0 +1,19 @@
+<div class="alert alert-success">
+  <div class="container">
+    <h1 class="text-center mb-3">Our Products</h1>
+
+    <button (click)="editFirstBook()" class="btn btn-danger mb-2">
+      Edit First Product
+    </button>
+    <div class="row">
+      @for (product of products; track $index) {
+      <app-product-card
+        (OnRemoveProduct)="removeProductHandler($event)"
+        [myProduct]="product"
+        class="col-sm-6 col-md-3"
+      />
+
+      }
+    </div>
+  </div>
+</div>

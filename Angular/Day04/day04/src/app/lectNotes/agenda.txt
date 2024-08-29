@@ -1,0 +1,9 @@
+== Component Interactions 
+    -- Pass data from Parent to Child
+    -- Pass Data From Child to Parent
+    --Pass Data From Child to Child
+
+
+== Angular Life Cycle
+
+== Routing 
