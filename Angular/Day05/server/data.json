@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Book From Server",
+      "price": 100,
+      "quantity": 200
+    },
+    {
+      "id": "3",
+      "name": "Mouse From Server",
+      "price": 80,
+      "quantity": 40
+    },
+    {
+      "name": "Phone new Edit",
+      "price": "500",
+      "quantity": "20",
+      "id": "4"
+    }
+  ]
+}
